@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+#app {
+    height: 100vh;
+    background-color: gray;
+}
+
+.calculator-wrapper {
+    height: 550px;
+    border: 1px white solid;
+    width: 22.5%;
+}
+
+.calcu-interface {
+    height: 100%;
+}
+
+.calcu-screen {
+    height: 25%;
+}
+
+.calcu-screen input {
+    height: 6.3rem;
+    width: 21.5rem;
+}
+
+.calcu-screen input::-webkit-inner-spin-button,
+.calcu-screen input::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+.calcu-button {
+    height: 75%;
+}
+
+.first-wrapper-button .text-button {
+    height: 20%;
+}
+
+.text-button button {
+    width: 100%;
+    font-size: 1.8rem;
+}
+
+.first-wrapper-button .number-button {
+    height: 80%;
+}
+
+.number-button button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+}
+
+.logical-button button {
+    height: 100%;
+    font-size: 1.8rem;
+}
